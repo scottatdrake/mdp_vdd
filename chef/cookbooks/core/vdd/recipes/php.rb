@@ -2,7 +2,7 @@ apt_repository "php54" do
   uri "http://ppa.launchpad.net/ondrej/php5-oldstable/ubuntu"
   distribution node['lsb']['codename']
   components ["main"]
-  keyserver "keyserver.ubuntu.com"
+  keyserver "hkp://keyserver.ubuntu.com:80"
   key "E5267A6C"
 end
 
